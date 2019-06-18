@@ -2,11 +2,21 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>はじめてのプログラミング</title>
+		<title>天気予報</title>
 	</head>
 	<body>
+		<h1>明日の天気</h1>
 		<script>
-			document.write('<h1>プログラミングを勉強します</h1>');
+			var score = 50;
+			if(score >= 80){
+				document.write('<p>明日は雨です</p>');
+			}
+			else if(score < 50){
+				document.write('<p>明日は晴です</p>');
+			}
+			else{
+				document.write('<p>明日は曇りです</p>');
+			}
 		</script>
 	</body>
 </html>
